@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj": {}
+    "C:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj": {
+    "C:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj",
         "projectName": "HexAxiom.Core",
-        "projectPath": "c:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj",
+        "projectPath": "C:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\HexAxiom.Core.csproj",
         "packagesPath": "C:\\Users\\Jared\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\obj\\",
+        "outputPath": "C:\\Users\\Jared\\Development\\repos\\HexAxiomEngine\\src\\hexaxiom.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

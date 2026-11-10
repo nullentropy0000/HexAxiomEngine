@@ -78,6 +78,7 @@ public sealed class HexAsciiRenderer
         {
             HexOccupantKind.Character => "C ",
             HexOccupantKind.Object => "O ",
+            HexOccupantKind.Empty => EmptyMarker,
             _ => "??",
         };
     }

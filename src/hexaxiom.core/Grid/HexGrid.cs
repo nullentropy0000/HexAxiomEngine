@@ -56,24 +56,35 @@ public sealed class HexGrid
         return true;
     }
 
+    private void Remove(HexCoord coord)
+    {
+        if (!_occupantsByCell.TryGetValue(coord, out var occupant)) return;
+        _occupantsByCell.Remove(coord);
+        _cellsByOccupant.Remove(occupant.Id);
+    }
+
+    private void Add(HexCoord coord, HexOccupant occupant)
+    {
+        _occupantsByCell[coord] = occupant;
+        _cellsByOccupant[occupant.Id] = coord;
+    }
+
     public bool TryMoveOccupant(string occupantId, HexCoord to)
     {
         if (!Contains(to)) return false;
         if (_occupantsByCell.ContainsKey(to)) return false;
         if (!_cellsByOccupant.TryGetValue(occupantId, out var from)) return false;
+        
         var occupant = _occupantsByCell[from];
-        _occupantsByCell.Remove(from);
-        _cellsByOccupant.Remove(occupantId);
-        _occupantsByCell[to] = occupant;
-        _cellsByOccupant[occupantId] = to;
+        Remove(from);
+        Add(to, occupant);
         return true;
     }
 
     public bool TryRemoveOccupant(string occupantId)
     {
         if (!_cellsByOccupant.TryGetValue(occupantId, out var coord)) return false;
-        _occupantsByCell.Remove(coord);
-        _cellsByOccupant.Remove(occupantId);
+        Remove(coord);
         return true;
     }
 

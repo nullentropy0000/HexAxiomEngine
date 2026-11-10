@@ -3,4 +3,8 @@
     <Project Path="src/HexAxiom.Harness/HexAxiom.Harness.csproj" />
     <Project Path="src/hexaxiom.core/HexAxiom.Core.csproj" />
   </Folder>
+  <Folder Name="/src/hexaxiom.core/" />
+  <Folder Name="/test/">
+    <Project Path="test/HexAxiom.Core.Tests/HexAxiom.Core.Tests.csproj" />
+  </Folder>
 </Solution>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HexAxiom.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b9b9ec76afacb1e3d1d084a07f2a505057cbbee")]
 [assembly: System.Reflection.AssemblyProductAttribute("HexAxiom.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HexAxiom.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,3 +9,4 @@ c:\Users\Jared\Development\repos\HexAxiomEngine\src\hexaxiom.core\obj\Debug\net8
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\hexaxiom.core\obj\Debug\net8.0\refint\HexAxiom.Core.dll
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\hexaxiom.core\obj\Debug\net8.0\HexAxiom.Core.pdb
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\hexaxiom.core\obj\Debug\net8.0\ref\HexAxiom.Core.dll
+c:\Users\Jared\Development\repos\HexAxiomEngine\src\hexaxiom.core\obj\Debug\net8.0\HexAxiom.Core.sourcelink.json

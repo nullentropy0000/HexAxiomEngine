@@ -16,3 +16,4 @@ c:\Users\Jared\Development\repos\HexAxiomEngine\src\HexAxiom.Harness\bin\Debug\n
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\HexAxiom.Harness\bin\Debug\net8.0\HexAxiom.Core.pdb
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\HexAxiom.Harness\obj\Debug\net8.0\HexAxiom.Harness.csproj.AssemblyReference.cache
 c:\Users\Jared\Development\repos\HexAxiomEngine\src\HexAxiom.Harness\obj\Debug\net8.0\HexAxiom.085E6078.Up2Date
+c:\Users\Jared\Development\repos\HexAxiomEngine\src\HexAxiom.Harness\obj\Debug\net8.0\HexAxiom.Harness.sourcelink.json
