@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HexAxiom.Harness/1.0.0": {
+        "dependencies": {
+          "HexAxiom.Core": "1.0.0"
+        },
+        "runtime": {
+          "HexAxiom.Harness.dll": {}
+        }
+      },
+      "HexAxiom.Core/1.0.0": {
+        "runtime": {
+          "HexAxiom.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HexAxiom.Harness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HexAxiom.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

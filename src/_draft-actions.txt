@@ -1,0 +1,7 @@
+- **`Pass`** — no Calculation runs. Actor's initiative returns to the Cycle queue (deferred).
+- **`Move`** — flat hex move; no resolver needed. Emits `MovementEvent` directly.
+- **`Select`** — directed at a hex (or arc of hexes); runs a Calculation. Can include healing or status effects. May target SELF
+- **`MoveThrough`** — directed at an occupant (Object or Character); runs a Calculation.
+
+- **`Select`**
+-- Triggers GetEligibleActions on (Object or Character). I.E. Shoot, Strike, Defend, Potion, MedKit, etc.

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HexAxiom.Harness/HexAxiom.Harness.csproj" />
+    <Project Path="src/hexaxiom.core/HexAxiom.Core.csproj" />
+  </Folder>
+</Solution>
